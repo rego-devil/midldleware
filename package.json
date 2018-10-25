@@ -1,0 +1,22 @@
+{
+  "name": "middleware-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nodemon src/redux/store --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
